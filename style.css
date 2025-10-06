@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* centralizando div :((!! */
+body {
+  background-color: #1a1110;
+
+  height: 100vh;
+}
+
+#asciiDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -2em;
+}
+
+#asciiArt {
+  font-size: 1em;
+  margin: 2em;
+  cursor: wait;
+  
+}
+
+#mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#albumImage {
+  border-radius: 19px;
+  max-width: 16em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.card {
+  background-color: #ffb4a7;
+  height: 25em;
+  width: 16em;
+  border-radius: 0.5em;
+}
+
+#buttonsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#username {
+  margin-top: 1em;
+  width: 19em;
+  border-radius: 3px;
+  border: 1px dotted white;
+  padding: 0.5em;
+}
+
