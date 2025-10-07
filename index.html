@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lastcard-fm!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lastcard-fm!</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body onselectstart="return false">
-  <div id="asciiDiv">
-    <pre id="asciiArt">
+  <body onselectstart="return false">
+    <div id="asciiDiv">
+      <pre id="asciiArt">
    _                                                
  _//          _/_               /       /)         /
  /   __.  _   /  _. __.  __  __/ ---   // ______  / 
@@ -18,18 +17,19 @@
                                      />         o   
                                    </              
       </pre>
-  </div>
-  <div id="mainContainer">
-    <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-      <img src="" alt="" id="albumImage" style="display: none" />
     </div>
-  </div>
-  <div id="buttonsDiv">
-    <input type="text" id="username" placeholder="Enter your username" />
-  </div>    
-  <button onclick="fetchData()">Enter!</button>
-  <script type="text/javascript" src="vanilla-tilt.js"></script>
-  <script src="script.js"></script>
-</body>
-
+    <div id="mainContainer">
+      <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+        <img src="" alt="" id="albumImage" style="display: none" />
+      </div>
+    </div>
+    <div id="buttonsDiv">
+      <input type="text" id="username" placeholder="Enter your username" />
+    </div>
+    <div id="buttonSendDiv">
+      <button onclick="fetchData()">Enter!</button>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

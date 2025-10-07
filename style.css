@@ -6,7 +6,7 @@
 
 /* centralizando div :((!! */
 body {
-  background-color: #1a1110;
+  background-color: #1f1f28;
 
   height: 100vh;
 }
@@ -21,8 +21,7 @@ body {
 #asciiArt {
   font-size: 1em;
   margin: 2em;
-  cursor: wait;
-  
+  cursor: default;
 }
 
 #mainContainer {
@@ -41,7 +40,7 @@ body {
 }
 
 .card {
-  background-color: #ffb4a7;
+  background-color: #938aa9;
   height: 25em;
   width: 16em;
   border-radius: 0.5em;
@@ -52,11 +51,32 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 #username {
   margin-top: 1em;
   width: 19em;
   border-radius: 3px;
-  border: 1px dotted white;
+  border: none;
   padding: 0.5em;
+  text-align: center;
 }
 
+input:focus {
+  outline: none;
+  border: none;
+}
+
+#buttonSendDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+
+button {
+  width: 5em;
+  height: 2em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

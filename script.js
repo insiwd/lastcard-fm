@@ -1,7 +1,7 @@
 async function fetchData() {
   try {
     const username = document.getElementById("username").value.toLowerCase();
-    const response = await fetch(`http://localhost:8080/${username}`);
+    const response = await fetch(`https://lastcard-fm-backend-v1-0.onrender.com/${username}`);
 
     if (!response.ok) {
       throw new Error("Não foi possível localizar");
@@ -17,18 +17,20 @@ async function fetchData() {
     albumImageSrc.src = albumImage;
     albumImageSrc.style.display = "block";
 
+
+
     console.log(
       "album name: " +
-        albumName +
-        "\n" +
-        "artist name: " +
-        artistName +
-        "\n" +
-        "artist URL: " +
-        artistUrl +
-        "\n" +
-        "Images: " +
-        albumImage
+      albumName +
+      "\n" +
+      "artist name: " +
+      artistName +
+      "\n" +
+      "artist URL: " +
+      artistUrl +
+      "\n" +
+      "Images: " +
+      albumImage
     );
   } catch (error) {
     console.error(error);
