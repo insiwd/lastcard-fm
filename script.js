@@ -13,10 +13,21 @@ async function fetchData() {
     let artistUrl = data.topalbums.album[0].artist.url;
     let albumImage = data.topalbums.album[0].image[3]["#text"];
 
+
+    // mudando imagem
     let albumImageSrc = document.getElementById("albumImage");
     albumImageSrc.src = albumImage;
     albumImageSrc.style.display = "block";
 
+    // nome do album
+    let albumNameParagraph = document.getElementById("albumNameParagraph");
+    albumNameParagraph.style.display = "block";
+    albumNameParagraph.innerHTML = albumName;
+
+    // mudando nome do artista 
+    let artistNameParagraph = document.getElementById("artistNameParagraph");
+    artistNameParagraph.style.display = "block";
+    artistNameParagraph.innerHTML = artistName;
 
 
     console.log(

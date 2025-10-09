@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -44,6 +45,23 @@ body {
   height: 25em;
   width: 16em;
   border-radius: 0.5em;
+}
+
+#albumNameParagraph {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 15px;
+  word-break: break-all;
+  cursor: default;
+}
+
+#artistNameParagraph {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 1.0em;
+  margin-left: 15px;
+  cursor: default;
 }
 
 #buttonsDiv {
