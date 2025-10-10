@@ -2,6 +2,10 @@
 
 **Lastcard-fm!** é um site que cria uma carta baseada no álbum mais escutado do usuário do Last-fm.
 
+<p align="center"> 
+    <img src="assets/images/image.png" width="600">
+</p>
+
 ### Como funciona?
 O *Lastcard-fm!* busca pelo username do usuário, consumindo a API do próprio Last-fm, capturando os dados do álbum mais escutado do usuário.
 
@@ -26,9 +30,13 @@ git clone https://github.com/insiwd/lastcard-fm.git
 ```
 Modifique, faça um PR ou um Fork do projeto! Deixe a criatividade fluir!
 
+---
 > Agradecimentos:
 > Last-fm, pela API acessível e de fácil uso. 
 > Liz, por me incentivar a construir coisas que me importo.
 > Meus amigos, por me darem dicas essenciais para o projeto.
 > Obrigado! 
 
+<p align="center">
+    <img src="assets/images/goodbye.png" width="400">
+</p>
