@@ -45,6 +45,7 @@ body {
   height: 25em;
   width: 16em;
   border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.425) 1px 7px 29px 0px;
 }
 
 #albumNameParagraph {
@@ -77,6 +78,7 @@ body {
   border: none;
   padding: 0.5em;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.274) 0em 0em 20px 0em;
 }
 
 input:focus {
@@ -97,4 +99,5 @@ button {
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.363) 0em 0em 20px 0em;
 }

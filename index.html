@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lastcard-fm!</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
   </head>
 
   <body onselectstart="return false">
@@ -19,7 +20,7 @@
       </pre>
     </div>
     <div id="mainContainer">
-      <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+      <div class="card" id="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
         <img src="" alt="" id="albumImage" style="display: none" />
         <p id="albumNameParagraph" style="display: none;">albumName</p>
         <p id="artistNameParagraph" style="display: none;">artistName</p>
@@ -29,7 +30,7 @@
       <input type="text" id="username" placeholder="Enter your username" />
     </div>
     <div id="buttonSendDiv">
-      <button onclick="fetchData()">Enter!</button>
+      <button onclick="fetchData()" id="button">Enter!</button>
     </div>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script src="script.js"></script>
