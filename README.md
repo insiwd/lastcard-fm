@@ -14,6 +14,7 @@ O *Lastcard-fm!* busca pelo username do usuário, consumindo a API do próprio L
 - HTML, CSS, JS -> Frontend
 - Docker
 - Git
+- Render - hospedagem
 
 ### Por quê?
 A minha ideia com o projeto é criar um site simples, que cumpre um objetivo simples, direto e de código aberto. O meu objetivo é fazer parte de uma internet divertida!
@@ -35,6 +36,7 @@ Modifique, faça um PR ou um Fork do projeto! Deixe a criatividade fluir!
 > Last-fm, pela API acessível e de fácil uso. 
 > Liz, por me incentivar a construir coisas que me importo.
 > Meus amigos, por me darem dicas essenciais para o projeto.
+> Render, pela hospedagem gratuita.
 > Obrigado! 
 
 <p align="center">
