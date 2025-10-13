@@ -17,10 +17,9 @@ async function fetchData() {
     let artistUrl = data.topalbums.album[0].artist.url;
     let albumImage = data.topalbums.album[0].image[3]["#text"];
 
-    
     // mudando imagem
     let albumImageSrc = document.getElementById("albumImage");
-    
+
     albumImageSrc.crossOrigin = "Anonymous";
     albumImageSrc.src = albumImage;
     albumImageSrc.style.display = "block";
@@ -48,23 +47,22 @@ async function fetchData() {
       const corCarta = colorPalette[1];
 
       // mudando o bg
-      document.body.style.backgroundColor = `rgb(${colorPalette[0].join(',')})`;
-      
+      document.body.style.backgroundColor = `rgb(${colorPalette[0].join(",")})`;
+
       // mudando cor da carta
       let cardColor = document.getElementById("card");
-      cardColor.style.backgroundColor = `rgb(${colorPalette[5].join(',')})`;
+      cardColor.style.backgroundColor = `rgb(${colorPalette[5].join(",")})`;
 
       let username = document.getElementById("username");
-      username.style.backgroundColor = `rgb(${colorPalette[5].join(',')})`;
+      username.style.backgroundColor = `rgb(${colorPalette[5].join(",")})`;
 
       let button = document.getElementById("button");
-      button.style.backgroundColor = `rgb(${colorPalette[5].join(',')})`;
-    
+      button.style.backgroundColor = `rgb(${colorPalette[5].join(",")})`;
     }
     if (colorThiefImg.complete) {
       processImage();
     } else {
-      colorThiefImg.addEventListener('load', processImage);
+      colorThiefImg.addEventListener("load", processImage);
     }
 
     // log no terminal

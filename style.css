@@ -51,9 +51,10 @@ body {
 #albumNameParagraph {
   font-family: Inter;
   font-weight: bold;
-  font-size: 2em;
+  font-size: clamp(1.4rem, 4.5vw, 1rem);
+  overflow-wrap: normal;
+  word-break: normal;
   margin-left: 15px;
-  word-break: break-all;
   cursor: default;
 }
 
