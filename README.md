@@ -1,6 +1,6 @@
 # Lastcard-fm!
 
-**Lastcard-fm!** é um site que cria uma carta baseada no álbum mais escutado do usuário do Last-fm.
+**[Lastcard-fm!](https://insiwd.github.io/lastcard-fm/)** é um site que cria uma carta baseada no álbum mais escutado do usuário do Last-fm.
 
 <p align="center"> 
     <img src="assets/images/image.png" width="600">
